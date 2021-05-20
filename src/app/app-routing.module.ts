@@ -7,12 +7,12 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path: 'planets',
-    loadChildren: () => import('./pages/planets/planets.module').then( m => m.PlanetsPageModule)
-  },
-  {
     path: 'people',
     loadChildren: () => import('./pages/people/people.module').then( m => m.PeoplePageModule)
+  },
+  {
+    path: 'planets',
+    loadChildren: () => import('./pages/planets/planets.module').then( m => m.PlanetsPageModule)
   },
   {
     path: 'starships',
