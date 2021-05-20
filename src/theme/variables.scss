@@ -234,3 +234,15 @@
     --ion-card-background: #1e1e1e;
   }
 }
+ion-toolbar{
+  --background: #3880ff;
+  --color: white;
+  text-align: center;
+  margin: auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ion-content h2{
+  margin-left: 20px;
+  // text-align: center;
+}
