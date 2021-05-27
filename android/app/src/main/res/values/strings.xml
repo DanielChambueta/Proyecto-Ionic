@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ProyectoEspejoDaniel</string>
+    <string name="title_activity_main">ProyectoEspejoDaniel</string>
+    <string name="package_name">io.ionic.PEDaniel</string>
+    <string name="custom_url_scheme">io.ionic.PEDaniel</string>
+</resources>
